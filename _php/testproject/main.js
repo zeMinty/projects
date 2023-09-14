@@ -1,7 +1,7 @@
 if (!String.prototype.toFString) {
     String.prototype.toFString = function () {
         var args = arguments;
-        return this.replace(/{(\d+)}/g, function(match, number){
+        return this.replace(/{(\d+)}/g, function (match, number) {
             return typeof args[number] != 'undefined'
                 ? args[number]
                 : match;

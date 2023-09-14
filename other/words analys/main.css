@@ -1,62 +1,59 @@
-body > *{
+body>* {
 	float: left;
 }
 
-#data{
+#data {
 	border: 1px dashed lightgray;
 	margin-left: 5px;
 }
 
-#data > *{
+#data>* {
 	margin: 2px !important;
 	float: left;
 }
 
-#mytext{
+#mytext {
 	border: 1px solid green;
 	min-height: 380px;
 	min-width: 400px;
 	padding: 5px;
 }
 
-#mytext:focus{
+#mytext:focus {
 	border: 1px solid darkgreen;
 }
 
-#counters{
+#counters {
 	background: #ddd;
 	border: 1px solid #bbb;
 	min-width: 300px;
 	min-height: 50px;
 }
 
-#counters > *{
+#counters>* {
 	background: #eee;
 	padding: 3px;
 	cursor: default;
 }
 
-#counters th{
+#counters th {
 	cursor: pointer;
 }
 
-#counters th:hover{
+#counters th:hover {
 	background: #ddd;
 }
 
-#counters tr:hover td{
+#counters tr:hover td {
 	background: #ddd;
 }
 
-#counters td:hover{
-	background: #ccc!important;
+#counters td:hover {
+	background: #ccc !important;
 }
 
-#graphFrequencyQuantity{
+#graphFrequencyQuantity {
 	--height: 700px;
 	--width: 270px;
 	border: 1px solid #ddd;
 }
-
-
-

