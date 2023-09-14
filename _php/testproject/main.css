@@ -1,0 +1,6 @@
+.row {
+    background: #fab;
+    padding: 1em 2em;
+    border: 1px solid darkgray;
+    max-width: 70%;
+}

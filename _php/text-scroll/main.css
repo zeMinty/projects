@@ -1,0 +1,35 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: #343;
+	color: black;
+	text-align: center;
+	font-size: medium;
+	font-weight: bold;
+}
+
+p {
+	width: 80%;
+	margin: 2em 10%;
+	padding: 0.3em;
+}
+
+p.filler:nth-child(odd) {
+	background: #6a6;
+}
+
+p.filler:nth-child(even) {
+	background: #9b9;
+}
+
+
+p.clickable {
+	background: orangered;
+}
+
+p.filler:hover,
+p.clickable:hover {
+	background: #777;
+}
