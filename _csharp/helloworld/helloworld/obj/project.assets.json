@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\KewLix\\Desktop\\projects\\_csharp\\helloworld\\helloworld\\helloworld.csproj",
+      "projectUniqueName": "c:\\Users\\KewLix\\Desktop\\git\\projects\\_csharp\\helloworld\\helloworld\\helloworld.csproj",
       "projectName": "helloworld",
-      "projectPath": "c:\\Users\\KewLix\\Desktop\\projects\\_csharp\\helloworld\\helloworld\\helloworld.csproj",
+      "projectPath": "c:\\Users\\KewLix\\Desktop\\git\\projects\\_csharp\\helloworld\\helloworld\\helloworld.csproj",
       "packagesPath": "C:\\Users\\KewLix\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\KewLix\\Desktop\\projects\\_csharp\\helloworld\\helloworld\\obj\\",
+      "outputPath": "c:\\Users\\KewLix\\Desktop\\git\\projects\\_csharp\\helloworld\\helloworld\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\KewLix\\AppData\\Roaming\\NuGet\\NuGet.Config"
